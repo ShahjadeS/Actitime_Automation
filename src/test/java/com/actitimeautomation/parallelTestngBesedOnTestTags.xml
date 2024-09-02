@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="actitime-automation" verbose="1" parallel="tests" thread-count="2">
+
+<!--    Run <test> tags parallely from 'parallelTesting.xml' file-->
+    <test name="Sanity1">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actitimeautomation.TestNGTests.TestNGAnnotations"/>
+            <class name="com.actitimeautomation.TestNGTests.SanityTestGroup"/>
+            <class name="com.actitimeautomation.TestNGTests.TestDataProvider"/>
+        </classes>
+    </test>
+    
+    <test name="Regression1">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="username" value="UN1"/>
+        <parameter name="password" value="PW1"/>
+        <classes>
+            <class name="com.actitimeautomation.TestNGTests.RegressionTestGroup"/>
+            <class name="com.actitimeautomation.TestNGTests.windowsOperationsTestNG"/>
+        </classes>
+    </test>
+
+</suite>

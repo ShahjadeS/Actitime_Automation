@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="actitime-automation" verbose="1">
+<listeners>
+    <listener class-name="com.actitimeautomation.common.TestListener"/>
+</listeners>
+    <test name="Functional">
+        <packages>
+            <package name="com.actitimeautomation.tests2"></package>
+        </packages>
+    </test>
+
+<!--    <test name="Regression1">-->
+<!--        <classes>-->
+<!--            <class name="com.actitimeautomation.TestNGTests.TestNGAnnotations"/>-->
+<!--&lt;!&ndash;            <class name="com.actitimeautomation.tests.windowsOperationsTestNG"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    ====================================================================================================================-->
+
+<!--    <test name="Regression2">-->
+<!--        <classes>-->
+<!--            <class name="com.actitimeautomation.tests.TestNGAnnotations"/>-->
+<!--            <class name="com.actitimeautomation.TestNGTests.windowsOperationsTestNG"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    ====================================================================================================================-->
+
+<!--    <test name="Functional1">-->
+<!--        <packages>-->
+<!--            <package name="com.actitimeautomation.tests"/>-->
+<!--        </packages>-->
+<!--    </test>-->
+
+<!--    ====================================================================================================================-->
+
+<!--    <test name="Sanity1">-->
+<!--        <classes>-->
+<!--            <class name="com.actitimeautomation.tests.TestNGAnnotations">-->
+<!--                <methods>-->
+<!--                    <include name="test2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    ====================================================================================================================-->
+<!--    This test for "RegressionTestGroup" & "SanityTestGroup" classes-->
+<!--    <test name="Regression3">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="regression"/>-->
+<!--                <include name="sanity"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.actitimeautomation.TestNGTests.RegressionTestGroup"/>-->
+<!--            <class name="com.actitimeautomation.TestNGTests.SanityTestGroup"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
