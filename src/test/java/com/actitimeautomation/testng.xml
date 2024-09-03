@@ -9,6 +9,8 @@
             <package name="com.actitimeautomation.tests2"></package>
         </packages>
     </test>
+    <test name="Sanity">
+    </test>
 
 <!--    <test name="Regression1">-->
 <!--        <classes>-->
