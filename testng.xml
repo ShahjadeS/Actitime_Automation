@@ -6,7 +6,10 @@
 </listeners>
     <test name="Functional">
         <packages>
-            <package name="com.actitimeautomation.tests2"></package>
+            <package name="com.actitimeautomation.tests2.LoginTest"></package>
+            <package name="com.actitimeautomation.tests2.CustomerTest"></package>
+            <package name="com.actitimeautomation.tests2.CustomerTest1"></package>
+            <package name="com.actitimeautomation.tests2.ProjectTest"></package>
         </packages>
     </test>
 <!--    <test name="Regression1">-->

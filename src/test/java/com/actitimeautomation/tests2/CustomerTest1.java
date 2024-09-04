@@ -38,7 +38,7 @@ public class CustomerTest1 extends BaseClass {
 
     @Test
     public void verifyCreateCustomer() {
-        String customerName = "Srimant Dagdusheth Halwai Ganpati";
+        String customerName = "Srimant Dagdusheth Halwai Ganpati1";
 
         if (customerPage1.isCustomerPresent(customerName)) {
             Assert.fail("Customer name already exists: " + customerName);
